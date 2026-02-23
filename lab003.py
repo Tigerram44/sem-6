@@ -10,7 +10,11 @@ def anal(model, word):
     for w, s in sw:
         print(w,s)
 
-corpus=[
+corpus=["The patient was prescribed antibiotics to treat the infection.".split(),
+    "The court ruled in favor of the defendant after reviewing the evidence.".split(),
+    "Diagnosis of diabetes mellitus requires specific blood tests.".split(),
+    "The legal contract must be signed in the presence of a witness.".split(),
+    "Symptoms of the disease include fever, cough, and fatigue.".split(),
 ]
 model=cw(corpus)
 
