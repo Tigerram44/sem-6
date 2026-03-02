@@ -1,0 +1,67 @@
+from gensim.downloader import load
+
+import random
+
+3
+
+I
+
+2
+
+# Load the pre-trained GloVe model
+
+4 print("Loading pre-trained GloVe model (50 dimensions)...")
+
+5 model = load("glove-wiki-gigaword-50")
+
+6 print("Model loaded successfully!")
+
+7
+
+# Function to construct a meaningful paragraph
+
+8 def create_paragraph (iw, sws):
+
+9
+
+10
+
+paragraph = "The topic of "+iw+" is fascinating, often linked to terms like "
+
+11
+
+random.shuffle(sws) # Shuffle to add variety
+
+12
+
+for word in sws:
+
+13
+
+paragraph += word + ", "
+
+14
+
+15
+
+paragraph = paragraph.rstrip(", ") + "."
+
+16
+
+return paragraph
+
+17
+
+iw = "hacking"
+
+sws model.most_similar(iw, topn=10)
+
+18 words [word for word, s in sws]
+
+19
+
+paragraph = create_paragraph (iw, words)
+
+20
+
+print(paragraph)
