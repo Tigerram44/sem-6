@@ -1,0 +1,32 @@
+define robotics.
+what are the different types of industrial robot. explain any two with a neat sketch.
+considering automotive, service, healthcare and space technology, explain how robotics influence them.
+what are he basic components of robot and explain. provide an analogy of robotic systems with human body.
+explain the following : i) forward kinematics; ii) inverse kinematics: iii) static analysis of robots; iv) dynamic analysis of robots;
+write a brief note on evolution of programming language for robotics.
+Classify sensor based on extrioceptive and proprioceptive sensors used in robots. take on sensor from each and explain its working principle with a neat sketch.
+Identify the application of robotics in: i) disaster management; ii) minimg industry.
+Classify different actuators used in robotics and explain.
+
+module 2
+Briefly explain the following: i) Kinematics; ii) Links; iii) Kinematic Joint; iv) degree of freedom; v) dynamics.
+list different types of joints and explain each with a neat sketch.
+list and explain different types of links with a neat sketch.
+What is homogenous transformation matrix? and Obtain an equation for homogenous transformation matrix.
+one problem on : i) pure rotation; ii) pure translation; iii) combination of rotation and translation.
+What ois D-H parameters? and explain it through equations.
+obtain forward and inverse kinematics for a 2-d and 3-d manipulator using geometric method.
+obtain forward kinematics for 2-d manipulator using D-H parameters.
+Obtain forward kinematics for 3-link serial  manipulator using D-H parameters.
+Obtain an equation for jacobian matrix in the context of robotics.
+write a brief note on singularities and redundencies.
+
+module 3
+define control systems. Compare and contrast open loop and closed control systems.
+Consider a traffic light operation in a signal. represent the same as open loop and closed loop control system with neat pictorial representation.
+A drone initially on ground, should hover at a height of 100m. Explain how it is achieved using PID controllers.
+Explain differnt control stratergies using different conbinations of p,i,D controllers.
+LIst and explain path planning environments.
+Write a brief note on: i) adaptive control; ii) robost control; iii) model predictive control.
+IN the era of AI, explain how digital control implementation is achieved in robotics.
+List and explain various trajectory generation techniques.
